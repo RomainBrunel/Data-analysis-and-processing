@@ -22,9 +22,9 @@ a = np.array(a)
 for x in range(n):
     for y in range(m):
         for z in range(j):
-            if j==0:
+            if z==0:
                 a[z][y][x] = SpecA13[y][x]
-            if j==1:
+            if z==1:
                 a[z][y][x] = SpecA25[y][x]
             else:
                 a[z][y][x] = SpecA34[y][x]
