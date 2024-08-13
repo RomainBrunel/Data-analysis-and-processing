@@ -165,3 +165,11 @@ cython_debug/
 .jupyter/
 jens/
 xueshi/
+
+#Data
+*.csv
+*.hdf5
+*.trc
+xueshi/
+jens/
+
